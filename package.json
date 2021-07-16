@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "start": "vite preview --port 5664 --host localhost"
+    "start": "vite preview --port 5664 --host http://0.0.0.0"
   },
   "dependencies": {
     "vue": "^3.0.5"
